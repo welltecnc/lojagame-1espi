@@ -2,7 +2,7 @@
 const GameCard = ({titulo,preco,imagem}) => {
   return (
     <div className="bg-black rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:border-4 hover:border-[#95ff00]">
-      <img src={imagem} alt={titulo} className="w-full h-[250px] object-cover"/>
+      <img src={imagem} alt={titulo} className="w-full h-[280px] object-cover"/>
 
       <article className="p-4 text-center">
         <h2 className="text-xl text-[#95ff00] font-bold mb-3 uppercase">{titulo}</h2>
